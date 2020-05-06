@@ -280,7 +280,7 @@ namespace Калькулятор
         private void Button_Click_16(object sender, RoutedEventArgs e)
         {
             proc = true;
-            if ((textBox1.Text != "бесконечность") || (textBox1.Text == "∞"))
+            if ((textBox2.Text == "0") && (sq == false) && (kv == false) && (delx == false))
                 textBox2.Text += "%";
         }
     }
