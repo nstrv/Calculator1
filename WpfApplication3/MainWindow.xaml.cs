@@ -280,7 +280,7 @@ namespace Калькулятор
         private void Button_Click_16(object sender, RoutedEventArgs e)
         {
             proc = true;
-            if  ((sq == false) && (kv == false) && (delx == false))
+            if  ((sq == false) && (kv == false) && (delx == false) && (rav = false))
                 textBox2.Text += "%";
         }
     }
