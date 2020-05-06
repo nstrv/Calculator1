@@ -145,7 +145,7 @@ namespace Калькулятор
                 if (proc == true)
                 {
                     textBox2.Text = "";
-                    result = db1 * (db1 * db2 / 100);
+                    result = db1 * db2/100;
                 }
             }
             if (operation == "/")
@@ -280,7 +280,7 @@ namespace Калькулятор
         private void Button_Click_16(object sender, RoutedEventArgs e)
         {
             proc = true;
-            if ((textBox2.Text == "0") && (sq == false) && (kv == false) && (delx == false))
+            if  ((sq == false) && (kv == false) && (delx == false))
                 textBox2.Text += "%";
         }
     }
