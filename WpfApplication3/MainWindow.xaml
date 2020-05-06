@@ -5,6 +5,7 @@
         Title="Калькулятор" Height="400" Width="265" MaxHeight="400" MaxWidth="265" MinHeight="400" MinWidth="265" Icon="calculator_icon-icons.com_50442.png" Background="#FF464646"> 
     <Grid>
         <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="40" Margin="15,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" BorderThickness="1" SelectionOpacity="-0.4" SpellCheck.IsEnabled="True" Background="#FFDEDCDC" Text="0" HorizontalScrollBarVisibility="Auto"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" Margin="15,2,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220"/>
         <Button Content="0" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="85"  Height="40" Margin="15,308,0,0" Click="Button_Click_1" BorderBrush="#FF666363" Foreground="Black">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
@@ -165,7 +166,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button Content="√" HorizontalAlignment="Left" Margin="195,128,0,0" VerticalAlignment="Top" Width="40" Height="40" BorderBrush="#FF666363" Foreground="Black">
+        <Button Content="√" HorizontalAlignment="Left" Margin="195,128,0,0" VerticalAlignment="Top" Width="40" Height="40" BorderBrush="#FF666363" Foreground="Black" Click="Button_Click_5">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                     <GradientStop Color="#FFF3F3F3" Offset="0"/>
@@ -215,7 +216,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button Content="%" HorizontalAlignment="Left" Margin="195,173,0,0" VerticalAlignment="Top" Width="40" Height="40" Click="Button_Click_3" BorderBrush="#FF666363" Foreground="Black">
+        <Button Content="%" HorizontalAlignment="Left" Margin="195,173,0,0" VerticalAlignment="Top" Width="40" Height="40" Click="Button_Click_16" BorderBrush="#FF666363" Foreground="Black">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                     <GradientStop Color="#FFF3F3F3" Offset="0"/>
@@ -285,6 +286,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
+        
 
 
     </Grid>
